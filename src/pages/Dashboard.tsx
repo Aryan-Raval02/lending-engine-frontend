@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import axiosClient from '../api/axiosClient';
 import { LogOut, LayoutDashboard, Plus, FileText, CheckCircle, XCircle, UserPlus, TrendingUp, AlertTriangle, Download } from 'lucide-react';
 import RiskGauge from '../components/RiskGauge';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 interface LoanApplication {
   id: string;
