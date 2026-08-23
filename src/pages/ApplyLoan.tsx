@@ -141,9 +141,9 @@ const ApplyLoan: React.FC = () => {
                 required
               >
                 <option value="WORKING_CAPITAL">Working Capital</option>
-                <option value="EQUIPMENT">Equipment Purchase</option>
+                <option value="EQUIPMENT_PURCHASE">Equipment Purchase</option>
                 <option value="REAL_ESTATE">Real Estate</option>
-                <option value="REFINANCING">Refinancing</option>
+                <option value="DEBT_CONSOLIDATION">Refinancing / Debt Consolidation</option>
                 <option value="OTHER">Other</option>
               </select>
             </div>
